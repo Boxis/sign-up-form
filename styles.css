@@ -1,0 +1,95 @@
+
+body{
+    display: flex;
+    font: 1.3rem sans-serif;
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    background-color: black;
+}
+
+section {
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.info-text {
+    
+}
+
+.background-logo {
+    position: relative;
+    height: 100%;
+    width: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;   
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center; /*Center the contents */
+    background-color: black;
+    opacity: 0.52;
+    
+}
+
+.cat-logo {
+    width: 100px;
+    filter: invert(100%) 
+            sepia(100%) 
+            saturate(0%) 
+            hue-rotate(296deg) 
+            brightness(101%) 
+            contrast(104%);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    color: white;
+}
+
+.photo-credit {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}

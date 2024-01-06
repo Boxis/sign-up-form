@@ -6,9 +6,77 @@
     <link rel="stylesheet" href="styles.css">
     <title>Sign Up Page</title>
 </head>
+
 <body>
     <section class="background-logo">
-        
+        <img src="resources/cat-background.jpg" alt="">
+        <div class="logo">
+            <img src="resources/cat-logo.svg" alt="" class="cat-logo">
+            <p>CAT CAT</p>
+        </div>
+        <p class="photo-credit">Photo by <a href="https://unsplash.com/@raouldroog">Roaul Droog</a> on <a href="https://unsplash.com/photos/russian-blue-cat-wearing-yellow-sunglasses-yMSecCHsIBc">Unsplash</a></p>
+    </section>
+
+    <section class="information">
+        <div class="info-text">
+            <h2>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                <br>Sign up <em>now</em> to get started
+            </h2>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <form>
+            <div>
+                <h2>Let's do this!</h2>
+
+                <div class="name-info">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" 
+                           name="fname" 
+                           id="fname" />
+
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" 
+                           name="lname" 
+                           id="lname" />
+                </div>
+
+                <div id="general-info">
+                    <label for="email">EMAIL</label>
+                    <input type="email" 
+                           name="email" 
+                           id="email" />
+
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" 
+                           name="phone" 
+                           id="phone" 
+                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
+                </div>
+
+                <div class="password-info">
+                    <label for="password">PASSWORD</label>
+                    <input type="password"
+                           name="pass"
+                           id="pass"
+                           minlength="8"
+                           required />
+
+                    <label for="password-confirm">CONFIRM PASSWORD</label>
+                    <input type="password"
+                           name="pass-confirm"
+                           id="pass-confirm"
+                           minlength="8"
+                           required />
+                </div>
+
+                <div class="button">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="/index.html">Log in</a></p>
+                </div>
+            </div>
+        </form>
     </section>
     
 </body>
