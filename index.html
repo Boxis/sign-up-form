@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
     <title>Sign Up Page</title>
 </head>
 
 <body>
-    <section class="background-logo">
+    <section class="background-img">
         <img src="resources/cat-background.jpg" alt="">
         <div class="logo">
             <img src="resources/cat-logo.svg" alt="" class="cat-logo">
@@ -19,16 +20,16 @@
 
     <section class="information">
         <div class="info-text">
-            <h2>This is not a real online service! You know you need something
+            <p>This is not a real online service! You know you need something
                 like this in your life to help you realize your deepest dreams.
                 <br>Sign up <em>now</em> to get started
-            </h2>
+            </p>
             <p>You <em>know</em> you want to.</p>
         </div>
 
         <form>
             <div>
-                <h2>Let's do this!</h2>
+                <h3>Let's do this!</h3>
 
                 <div class="name-info">
                     <label for="fname">FIRST NAME</label>
@@ -42,7 +43,7 @@
                            id="lname" />
                 </div>
 
-                <div id="general-info">
+                <div class="general-info">
                     <label for="email">EMAIL</label>
                     <input type="email" 
                            name="email" 
@@ -73,7 +74,10 @@
 
                 <div class="button">
                     <button type="submit">Create Account</button>
-                    <p>Already have an account? <a href="/index.html">Log in</a></p>
+                    <p>
+                        Already have an account? 
+                        <a href="/index.html">Log in</a>
+                    </p>
                 </div>
             </div>
         </form>
