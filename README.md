@@ -2,16 +2,6 @@
 
 This project includes html & css which will design a sigh-up form page.
 
-
-## TODO
--gather assets
--design page
--css styling!
--how to use downloaded font
--mobile first css
--desktop css
-
-
 ## Page Design
 -2 parts
 -left is background with logo
